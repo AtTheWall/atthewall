@@ -1,6 +1,10 @@
 body {
   background-color: white;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 20px;
 }
+
 block1 {
     font-style: normal;
     font-size: 20px;
