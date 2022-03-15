@@ -24,3 +24,24 @@ block1 {
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: antialiased;
 }
+
+block2 {
+    font-style: normal;
+    font-size: 30px;
+    line-height: 32px;
+    margin: 60px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    color: #434a54;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+
+}
