@@ -17,6 +17,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border:1px solid #021a40;
 }
 
 block1 {
