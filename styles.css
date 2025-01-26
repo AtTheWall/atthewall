@@ -72,8 +72,8 @@ block3 {
     color: #434a54;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
+    text-align: center;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: antialiased;
-    font-family: Archivo, helvetica, arial, sans-serif, "Microsoft YaHei";
 }
