@@ -77,3 +77,25 @@ block3 {
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: antialiased;
 }
+
+.toggle-content {
+	display: none;
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+	transition: height 350ms ease-in-out, opacity 750ms ease-in-out;
+}
+
+.show-fast {
+	transition: height: 100ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.show-slow {
+	transition: height: 2000ms ease-in-out, opacity 2500ms ease-in-out;
+}
+
+.toggle-content.is-visible {
+	display: block;
+	height: auto;
+	opacity: 1;
+}
