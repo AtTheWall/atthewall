@@ -5,6 +5,11 @@ body {
   padding: 20px;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .center {
   display: block;
   margin-left: auto;
